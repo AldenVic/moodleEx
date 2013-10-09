@@ -432,7 +432,6 @@ if (!isguestuser() && isloggedin() && $can_subscribe) {
         html_writer::link(new moodle_url('/mod/forum/index.php', array('id'=>$course->id, 'subscribe'=>0, 'sesskey'=>sesskey())),
             get_string('allunsubscribe', 'forum')),
         array('class'=>'helplink'));
-    echo $OUTPUT->confirm(get_string('confirm something'), $buttoncontinue);
     echo $OUTPUT->box_end();
     echo $OUTPUT->box('&nbsp;', 'clearer');
 }
