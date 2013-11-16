@@ -76,7 +76,8 @@
     }
 
     if (isloggedin()) {
-        add_to_log(SITEID, 'course', 'view', 'view.php?id='.SITEID, SITEID);
+	echo "Hi, ".ucfirst($USER->username)." | This page was last loaded on ".date("F j, Y, g:i a");
+	add_to_log(SITEID, 'course', 'view', 'view.php?id='.SITEID, SITEID);
     }
 
 /// If the hub plugin is installed then we let it take over the homepage here

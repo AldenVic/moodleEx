@@ -27,3 +27,9 @@ For more information, see the INSTALL DOCUMENTATION:
 Good luck and have fun!
 Martin Dougiamas, Lead Developer
 
+CHANGES
+=======
+
+Logging into the home page of Moodle now gives the 
+user a friendly greeting on the top left and also the
+last time the current page was loaded.
